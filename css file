@@ -1,0 +1,106 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Light gray background color */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; /* White container background color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for container */
+}
+
+.header_container {
+    text-align: center;
+}
+
+.header_title {
+    color: #333; /* Dark text color */
+}
+
+.login-container,
+.menu_section,
+.owner-section {
+    margin-top: 20px;
+}
+
+.login-form,
+.owner-form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #f9f9f9; /* Light gray background color for the form */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for the form */
+}
+
+.login-form h2,
+.owner-form h2 {
+    text-align: center;
+    color: #333; /* Dark text color */
+}
+
+.login-form label,
+.owner-form label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #555; /* Label text color */
+}
+
+.login-form input,
+.owner-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc; /* Input border color */
+    border-radius: 3px;
+}
+
+.login-form button,
+.owner-form button,
+#dineOutBtn,
+#showMenuBtn {
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.login-form button,
+.owner-form button,
+#dineOutBtn {
+    color: #fff; /* White text color */
+}
+
+.login-form button,
+#dineOutBtn {
+    background-color: #ffc107; /* Yellow button background color */
+}
+
+.login-form button:hover,
+#dineOutBtn:hover {
+    background-color: #ffdb58; /* Lighter yellow on hover */
+}
+
+#showMenuBtn {
+    color: #333;
+    background-color: #ffc107;
+}
+
+#showMenuBtn:hover {
+    background-color: #ffdb58;
+}
+
+.owner-form button {
+    background-color: #4caf50; /* Green button background color */
+    color: #fff; /* White text color */
+}
+
+.owner-form button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
